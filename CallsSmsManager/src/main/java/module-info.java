@@ -4,6 +4,7 @@ module com.abraham.callssmsmanager {
 
     requires org.controlsfx.controls;
     requires java.sql;
+    requires org.slf4j;
 
     opens com.abraham.callssmsmanager.controllers to javafx.fxml;
     exports com.abraham.callssmsmanager;
